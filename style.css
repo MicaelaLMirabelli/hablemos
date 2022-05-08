@@ -1,0 +1,45 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    display: grid;
+    gap: 2rem;
+    margin: 2rem;
+    background-color: beige;
+}
+
+section {
+    background-color: rgba(187, 143, 229, 0.863);
+    box-shadow: 5px 5px 20px;
+    padding: 2rem;
+}
+
+section h1 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+section ul {
+    display: grid;
+    grid-template-areas:
+        'li li'
+        'li li'
+        'li li';
+    gap: 1rem;
+    grid-auto-columns: 45%;
+}
+
+section li {
+    background-color: rgba(178, 111, 241, 0.863);
+    list-style-type: none;
+    border: 1px solid rgba(78, 59, 95, 0.863);
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+section li:hover {
+    background-color: orangered;
+}
+
+section li:focus {
+    background-color: rgb(39, 190, 9);
+}
