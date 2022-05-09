@@ -2,7 +2,7 @@ body {
     font-family: "Montserrat", sans-serif;
     display: grid;
     margin: 0.5rem;
-    background-color: beige;
+    background-color: #E5EFC1;
 }
 
 section {
@@ -26,18 +26,20 @@ section ul {
 }
 
 section li {
-    background-color: rgba(178, 111, 241, 0.863);
+    background-color: #A2D5AB;
     list-style-type: none;
-    border: 1px solid rgba(78, 59, 95, 0.863);
-    padding: 1rem;
+    border: 1px solid #39AEA9;
+    padding: 0.75rem;
     text-align: center;
     font-weight: bold;
+    font-size: larger;
+    border-radius: 25px;
 }
 
 section li:hover {
-    background-color: orangered;
+    background-color: #FFD59E;
 }
 
 section li:focus {
-    background-color: rgb(39, 190, 9);
+    background-color: #F7FF93;
 }
