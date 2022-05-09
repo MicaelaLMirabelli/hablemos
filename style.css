@@ -1,30 +1,28 @@
 body {
     font-family: "Montserrat", sans-serif;
     display: grid;
-    gap: 2rem;
-    margin: 2rem;
+    margin: 0.5rem;
     background-color: beige;
 }
 
 section {
-    background-color: rgba(187, 143, 229, 0.863);
-    box-shadow: 5px 5px 20px;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 section h1 {
     font-size: xx-large;
     text-align: center;
+    margin: 0px;
 }
 
 section ul {
     display: grid;
     grid-template-areas:
-        'li li'
-        'li li'
-        'li li';
+        'li li li'
+        'li li li';
     gap: 1rem;
-    grid-auto-columns: 45%;
+    grid-template-columns: 32% 32% 32%;
+    padding: 0px;
 }
 
 section li {
