@@ -37,10 +37,12 @@ section li {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    transition: background-color 1s;
 }
 
 section li:hover {
     background-color: #FFD59E;
+    cursor: pointer;
 }
 
 section li:focus {
