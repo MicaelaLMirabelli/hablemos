@@ -1,8 +1,45 @@
 body {
     font-family: "Montserrat", sans-serif;
     display: grid;
+    grid-template-areas: "aside main";
     margin: 0.5rem;
     background-color: #E5EFC1;
+    padding-right: 5rem;
+}
+
+aside {
+    background-color: #A2D5AB;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+aside ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+aside li {
+    list-style-type: none;
+    background-color: #FFD59E;
+    border: 1px solid orange;
+    border-radius: 25px;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+    transition: background-color 1s;
+}
+
+aside li:hover {
+    background-color: rgb(252, 182, 52);
+    cursor: pointer;
+}
+
+aside li:focus {
+    background-color: rgb(252, 182, 52);
 }
 
 section {
